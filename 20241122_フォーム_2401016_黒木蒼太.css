@@ -14,7 +14,7 @@
 /* --- レスポンシブデザイン開始 --- */
 /* 画面幅が600px以下のとき: 背景色を赤色にする */
 @media (max-width: 600px) {
-    body {background-color: red;}
+    body {background-color: blue;}/*課題６*/
     .a {font-size: 24px;}   /* 見出しを小さくする */
     .b {font-size: 16px;}   /* 説明文を小さくする */
 }
