@@ -1,0 +1,25 @@
+/* メイン見出し */
+.a {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 60px;
+}
+/* 説明文 */
+.b {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+/* --- レスポンシブデザイン開始 --- */
+/* 画面幅が600px以下のとき: 背景色を赤色にする */
+@media (max-width: 600px) {
+    body {background-color: red;}
+    .a {font-size: 24px;}   /* 見出しを小さくする */
+    .b {font-size: 16px;}   /* 説明文を小さくする */
+}
+/* 画面幅が1280pxより大きいとき: フォントサイズを大きくする */
+@media (min-width: 1280px) {
+    .a {font-size: 40px;}   /* 見出しを大きくする */
+    .b {font-size: 22px;}   /* 説明文を大きくする */
+}
